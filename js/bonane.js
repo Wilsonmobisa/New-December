@@ -44,7 +44,7 @@ document.title += ` ${gasyYear}`;
  * @returns {string}
  */
 function formatMessage(message) {
-    return message ? message.replace('{{YEAR}}', gasyYear) : `Bonne année ${gasyYear} !`;
+    return message ? message.replace('{{YEAR}}', gasyYear) : `#TIW_Developer ${gasyYear} !`;
 }
 
 /**
